@@ -1,3 +1,20 @@
+/*
+ * Basic GPS logging client communicating over a serial USB channel.
+ *
+ * The enclosed client `gpsclient` is a very basic GPS-client intended to
+ * read a stream of data from a serial port in Linux (in this case a USB
+ * port serving with serial data).
+ *
+ * The code for the `gpsclient` is written in C99-compliant C-code and can
+ * be compiled using GCC and the enclosed Makefile. See the enclosed README
+ * and Makefile for instructions on compilation and configuration of the
+ * client on any standard Linux system such as Ubuntu, ArchLinux, Debian
+ * or Raspbian.
+ *
+ * The primary source location is https://github.com/hp35/gpsclient
+ *
+ * Copyright (C) 2024, Fredrik Jonsson, under GPL 3.0. See enclosed LICENSE.
+ */
 #include <gps.h>
 #include <stdio.h>
 #include <stdlib.h>
