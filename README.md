@@ -57,4 +57,4 @@ terminal to verify that everything is okay:
 Copyright (C) 2024, Fredrik Jonsson, under GPL 3.0. See enclosed [LICENSE].
 
 ## Location of master source code
-The source and documentation can be found at 
+The source and documentation can be found at [https://github.com/hp35/gpsclient]
